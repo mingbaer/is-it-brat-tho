@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial Narrow", sans-serif;
+}
+
+/* TODO: Edit the properties below to customize your website! */
+body {
+  background-color: #8ace00;
+
+  display: flex;
+  align-items: justify;
+  flex-direction: column;
+}
+
+h1 {
+  color: #e3d3e4;
+  font-size: 72pt;
+  margin: 20px 20px 20px 20px;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+h2 {
+  color: #e3d3e4;
+  font-size: 24pt;
+  margin: 20px 20px 20px 20px;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+p {
+  color: #e3d3e4;
+  font-size: 16pt;
+  width: 90%;
+  text-align: justify;
+  margin: 10px 20px;
+  text-justify: inter-character;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+#imgicon {
+  display: grid;
+  max-width: 50%;
+  max-height: 50vh;
+  align-items: left;
+}
+
+.bubble {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 10px #000000;
+
+  width: 80%;
+  padding: 5px 0;
+  margin: 50px 0 10px 0;
+}
+
+/* Edit me to change the appearance of the button! */
+button {
+  font-size: 16pt;
+  font-family: "Arial Narrow";
+
+  background-color: #6e44ff;
+  border: none;
+  /* for rounded corners */
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px 10px #6e44ff;
+  color: #e3d3e4;
+
+  width: 200px;
+  height: 50px;
+  margin: 20px 50px;
+}
+
+button:hover {
+  background-color: #b5a1ff;
+  cursor: pointer;
+}
+
+/* The camera */
+#webcam-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* The labels */
+#label-container {
+  color: #e3d3e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 14pt;
+
+  margin: 25px;
+}
